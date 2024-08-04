@@ -74,7 +74,7 @@ public class Main {
         return matched;
     }
     
-    public static int solution42(int[] banana_list) {
+    public static int solution(int[] banana_list) {
         Map<Integer, List<Integer>> g =  generateGraph(banana_list);
         int matches = reduce(g);
         return banana_list.length - matches;
