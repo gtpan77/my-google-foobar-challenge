@@ -21,12 +21,12 @@ public class Main {
    
     public static void main(String[] args) {
         int[] in1 = {7,3,5,1};
-        int[] out1 = solution22(3,in1);
+        int[] out1 = solution(3,in1);
         for(int s: out1) {
             System.out.println(s);
         }
         int[] in2 = {19,14,28};
-        int[] out2 = solution22(5,in2);
+        int[] out2 = solution(5,in2);
         for(int s: out2) {
             System.out.println(s);
         }
